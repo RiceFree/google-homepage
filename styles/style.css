@@ -2,22 +2,43 @@ html{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-
-#logo {
-    margin-top: 200px;
-    margin-left: 45%;
-    margin-right: 50%;
-    margin-bottom: 50px;
+a {
+    text-decoration: none;
 }
 
+
+
 #googleSearchForm {
-    margin-left: 40%;
-    margin-right: 50%;
-    width: 60vw;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    width: 70vw;
+}
+
+#logo img {
+    display: block;
+    margin: 0 auto;
+}
+
+#moreSearch {
+    font-size: 10px;
+    float: right;
+    width: 100px;
+    padding: 5px;
 }
 
 #textSearch {
+    align-self: center;
     width: 500px;
+    margin-left: 10%;
+}
+#bar {
+    display: flex;
+    margin: 0 auto;
+}
+#buttons {
+    text-align: center;
 }
 button {
     margin: 20px;
@@ -28,7 +49,8 @@ button {
     height: 30px;
     position: fixed;
     top: 0px;
-    background-color: rgb(32, 32, 32);
+    right: 0px;
+    background-color: rgb(37, 37, 37);
     display: inline;
 }
 
@@ -36,7 +58,8 @@ button {
     color: rgb(218, 218, 218);
     font-size: 12px;
     text-decoration: none;
-    padding: 5px 5px;
+    padding: 5px;
+    padding-top: 7px;
 }
 
 .navlink {
@@ -46,4 +69,18 @@ button {
 .navlink2 {
     float: right;
 }
+footer {
+    text-align: center;
+    margin-top: 30px;
+}
 
+#moreGoogle {
+    font-size: 12px;
+}
+#terms {
+    font-size: 10px;
+}
+
+.moreclass {
+    margin: 20px;
+}
